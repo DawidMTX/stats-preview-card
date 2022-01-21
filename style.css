@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: hsl(233, 47%, 7%);
+    /*background-color: hsl(233, 47%, 7%);*/
+
     width: 100vw;
     height: 100vh;
     font-size: 15px;
@@ -19,13 +20,18 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+   
+    
 }
  
 .text{
+    position: absolute;
+    left: 0px;
     width:540px;
     height: 100%;
     background-color: hsl(244, 38%, 16%);
-    float: left;
+    border-radius: 8px 0 0 8px;;
+    
 
 }    
 
@@ -33,19 +39,21 @@ body{
     color:hsl(0, 0%, 100%);
     
 }
-.picture{
+.picture{   
     position: absolute;
-    margin-left: 540px;
+    width: 540px;
+    right: 0%;
+  
     
 }
 .picture__image{
     position: absolute;
-  
+    border-radius: 0 8px 8px 0;
 }
-.picture__background{
-    position: absolute;
+.picture__background{ 
     width: 540px;
-    height: 448px;
+    height: 446px;
     background-color: hsl(278, 88%, 34%);
     opacity: 0.5; 
+    border-radius: 0 8px 8px 0;
 }
