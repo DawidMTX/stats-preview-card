@@ -35,6 +35,7 @@ body{
 }    
 .text__size{
     padding: 70px;
+   
 }
 
 .text__main{
@@ -52,14 +53,20 @@ body{
 .text__color{
     color: hsl(277, 64%, 61%);
 }
+.text__footer{
+    margin-top: 30px;
+    color: white;
+    display: inline;
+}
+ .text__footer1{
+
+ } 
+
 
 .picture{   
     position: absolute;
     width: 540px;
     right: 0%;
-    
-  
-    
 }
 .picture__image{
     position: absolute;
