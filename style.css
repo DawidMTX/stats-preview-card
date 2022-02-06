@@ -4,7 +4,7 @@
 }
 
 body{
-    /*background-color: hsl(233, 47%, 7%);*/
+    background-color: hsl(233, 47%, 7%);
 
     width: 100vw;
     height: 100vh;
@@ -23,7 +23,7 @@ body{
    
     
 }
- 
+
 .text{
     position: absolute;
     left: 0px;
@@ -31,14 +31,21 @@ body{
     height: 100%;
     background-color: hsl(244, 38%, 16%);
     border-radius: 8px 0 0 8px;;
-    
 
 }    
+.text__size{
+    padding: 70px;
+}
 
 .text__main{
     color:hsl(0, 0%, 100%);
+    font-size: 40px;
     
 }
+.text__a{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 .picture{   
     position: absolute;
     width: 540px;
