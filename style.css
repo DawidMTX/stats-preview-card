@@ -54,14 +54,24 @@ body{
     color: hsl(277, 64%, 61%);
 }
 .text__footer{
-    margin-top: 30px;
+    display:flex;
+    
     color: white;
-    display: inline;
+    border: 1px solid black;
 }
  .text__footer1{
-
+    flex: 1;
+    
  } 
 
+.text__footer2{
+   
+    flex: 1;
+}
+.text__footer3{
+    
+    flex: 1;
+}
 
 .picture{   
     position: absolute;
